@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .article-item {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .article-image img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .article-content {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  

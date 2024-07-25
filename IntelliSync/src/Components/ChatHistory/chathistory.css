@@ -1,0 +1,69 @@
+/* src/Components/ChatHistory/ChatHistory.css
+.message {
+    margin-bottom: 1rem;
+  }
+  
+  .message.user {
+    text-align: right;
+  }
+  
+  .message.bot {
+    text-align: left;
+    position: relative; 
+  }
+  
+  .copy-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .copy-button:hover {
+    background-color: #45a049;
+  }
+   */
+
+
+   /* src/Components/ChatHistory/ChatHistory.css */
+.message {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; /* Position relative to place the copy button */
+    background-color: #f4f4f4; /* Light background color for better contrast */
+  }
+  
+  .message.user {
+    text-align: right;
+    background-color: #e0f7fa; /* Light blue for user messages */
+  }
+  
+  .message.bot {
+    text-align: left;
+    background-color: #e8f5e9; /* Light green for bot messages */
+  }
+  
+  .copy-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; /* Absolute positioning within message container */
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .copy-button:hover {
+    background-color: #45a049;
+  }
+  

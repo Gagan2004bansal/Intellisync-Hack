@@ -1,0 +1,23 @@
+.mvh {
+    height: 90vh;
+}
+
+.svh {
+    height: 10vh;
+}
+
+.h-10b {
+    height: 10vh;
+}
+
+.h-90b {
+    height: 90vh;
+}
+
+.bimg {
+    background-image: url('../images/back.jpeg');
+}
+
+.qimg {
+    background-image: url('https://img.freepik.com/free-vector/abstract-colorful-low-poly-triangle-shapes_1035-19456.jpg');
+}

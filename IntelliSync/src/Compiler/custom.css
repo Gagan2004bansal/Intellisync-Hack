@@ -1,0 +1,19 @@
+.mvh {
+    height: 90vh;
+}
+
+.svh {
+    height: 10vh;
+}
+
+.h-10b {
+    height: 10vh;
+}
+
+.h-90b {
+    height: 90vh;
+}
+
+.bimg {
+    background-image: url('../images/back.jpeg');
+}
