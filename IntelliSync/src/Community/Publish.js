@@ -36,7 +36,7 @@ const Publish = () => {
     async function submitHandler() {
         try {
             if (title.length > 0 && value.length > 0) {
-                const response = await axios.post("https://intellisync-hack-backend.onrender.com", data);
+                const response = await axios.post("https://intellisync-hack-backend.onrender.com/publish", data);
 
                 console.log(response);
 
