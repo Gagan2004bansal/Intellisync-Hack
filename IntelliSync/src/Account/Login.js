@@ -20,7 +20,7 @@ const Login = () => {
     async function submitHandler(event) {
         event.preventDefault();
         try {
-            const response = await axios.post("http://localhost:3000/", info);
+            const response = await axios.post("https://intellisync-hack-backend.onrender.com", info);
 
             if (response.data.success === true) {
                 toast.success("Login Successfully");
