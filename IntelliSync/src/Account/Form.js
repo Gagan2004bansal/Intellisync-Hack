@@ -27,7 +27,7 @@ const Form = () => {
         }
         else {
             try {
-                const response = await axios.post("http://localhost:3000/signup", post);
+                const response = await axios.post("https://intellisync-hack-backend.onrender.com", post);
                 console.log(response.data);
 
                 if (response.data.success === false) {
