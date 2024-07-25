@@ -27,7 +27,8 @@ const Form = () => {
         }
         else {
             try {
-                const response = await axios.post("https://intellisync-hack-backend.onrender.com", post);
+                const response = await axios.post("https://intellisync-hack-backend.onrender.com/signup", post);
+
                 console.log(response.data);
 
                 if (response.data.success === false) {
