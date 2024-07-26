@@ -18,7 +18,7 @@ const Article = (props) => {
     async function Showdata() {
         try {
 
-            const response = await axios.get("http://localhost:3000/publish");
+            const response = await axios.get("https://intellisync-hack-backend.onrender.com/publish");
             setValue(response.data.data);
 
         } catch (error) {
