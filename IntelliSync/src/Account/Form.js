@@ -77,13 +77,13 @@ const Form = () => {
                     <label htmlFor="password" className='font-bold'>
                         Password
                     </label>
-                    <input type='password' required placeholder='Enter email...' id='password' className='pl-3 rounded-md bg-slate-500 text-white py-1' name='password' onChange={handleInput} />
+                    <input type='password' required placeholder='Enter password...' id='password' className='pl-3 rounded-md bg-slate-500 text-white py-1' name='password' onChange={handleInput} />
                 </div>
                 <div className='flex flex-col py-1'>
                     <label htmlFor="cpassword" className='font-bold'>
                         Confirm Password
                     </label>
-                    <input type='password' required placeholder='Enter email...' id='cpassword' className='pl-3 rounded-md bg-slate-500 text-white py-1' name='cpassword' onChange={handleInput} />
+                    <input type='password' required placeholder='Enter password...' id='cpassword' className='pl-3 rounded-md bg-slate-500 text-white py-1' name='cpassword' onChange={handleInput} />
                 </div>
                 <div>
                     <button type='submit' className='bg-sky-400 w-full mt-4 py-2 rounded-md font-bold hover:bg-sky-500' >Submit</button>
