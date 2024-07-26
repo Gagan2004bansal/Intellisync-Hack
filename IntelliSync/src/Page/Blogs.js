@@ -3,7 +3,7 @@ import axios from 'axios';
 import './blogs.css';
 
 const API_URL = 'https://newsapi.org/v2/everything';
-const BLOG_API_KEY = process.env.BLOG_API_KEY;
+const BLOG_API_KEY = process.env.REACT_APP_BLOG_API_KEY;
 
 function Blogs() {
   const [topic, setTopic] = useState('');
