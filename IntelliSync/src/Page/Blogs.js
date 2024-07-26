@@ -3,7 +3,7 @@ import axios from 'axios';
 import './blogs.css';
 
 const API_URL = 'https://newsapi.org/v2/everything';
-const API_KEY = '4a67f4475ee1445ea7f95ee8c447a347';
+const BLOG_API_KEY = process.env.BLOG_API_KEY;
 
 function Blogs() {
   const [topic, setTopic] = useState('');
@@ -17,7 +17,7 @@ function Blogs() {
       const response = await axios.get(API_URL, {
         params: {
           q: topic,
-          apiKey: API_KEY,
+          apiKey: BLOG_API_KEY,
           language: 'en',
         },
       });
