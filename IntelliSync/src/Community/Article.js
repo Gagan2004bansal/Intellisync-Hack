@@ -18,7 +18,7 @@ const Article = (props) => {
     async function Showdata() {
         try {
 
-            const response = await axios.get("https://intellisync-hack-backend.onrender.com/publish");
+            const response = await axios.get("http://localhost:3000/publish");
             setValue(response.data.data);
 
         } catch (error) {
@@ -67,10 +67,10 @@ const Article = (props) => {
 
 
     return (
-        <div className='mx-auto w-8/12 ninety-vh overflow-y-scroll scrollbar-hide'>
+        <div className='mx-auto w-full md:w-8/12 ninety-vh overflow-y-scroll scrollbar-hide px-2'>
             <div>{delopt ? <div className='font-bold text-black text-[25px] md:text-[40px] mb-5'></div> : <div className='font-bold text-black text-[20px] md:text-[35px] mt-5 mb-10 underline'>For You</div>}</div>
             <div className='text-slate-300 my-8'>
-                <div className='flex flex-col gap-y-5 px-10'>
+                <div className='flex flex-col gap-y-5 px-2'>
                     {value.map((info, index) => (
                         <div className='relative'>
                             <div className='bg-white w-10 h-10 rounded-full top-[-10px] left-[-10px] absolute border border-sky-300 hover:border-sky-500 hover:border-2 cursor-pointer'>
