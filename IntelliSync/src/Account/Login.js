@@ -65,7 +65,7 @@ const Login = () => {
                                 <label htmlFor="password" className='font-bold'>
                                     Password
                                 </label>
-                                <input type='password' onChange={changeHandler} required placeholder='Enter email...' id='password' className='pl-3 rounded-md bg-slate-500 text-white py-1' name='password' />
+                                <input type='password' onChange={changeHandler} required placeholder='Enter password...' id='password' className='pl-3 rounded-md bg-slate-500 text-white py-1' name='password' />
                             </div>
                             <div>
                                 <button type='submit' className='bg-sky-400 w-full mt-4 py-2 rounded-md font-bold hover:bg-sky-500'>Submit</button>
