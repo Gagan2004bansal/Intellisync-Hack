@@ -12,7 +12,8 @@ const Note = () => {
         setError(''); // Reset error state before fetching
         setArticles([]); // Clear previous articles
         try {
-            const response = await axios.post('http://localhost:5004/get_news', {
+            // const response = await axios.post('http://localhost:5004/get_news', {
+             const response = await axios.post('api/v1/get_news', {
                 topic,
             });
 
@@ -26,7 +27,8 @@ const Note = () => {
 
     const downloadNews = async () => {
         try {
-            await axios.post('http://localhost:5004/download_news', {
+            // await axios.post('http://localhost:5004/download_news', {
+            await axios.post('api/v1/download_news', {
                 articles,
             }, {
                 responseType: 'blob',
